@@ -14,32 +14,38 @@
                 <h1 class="text-5xl font-bold text-center ">My bank 
                     <span class="text-cyan-500"> A/C </span>home</h1>
                 <section class="flex mt-26">
+                    <!-- money deposit -->
                     <div class="bg-green-500 hover:bg-green-600 shadow-2xl w-56 text-start p-6 rounded mr-3 font-semibold text-white ">
                         <h3 class="text-2xl font-semibold text-white ">Deposit</h3>
                         <h2 class="font-5xl">$00</h2>
                     </div>
+                    <!-- money withdraw -->
                     <div class="bg-indigo-500 hover:bg-indigo-600 shadow-2xl w-56 text-start p-6 rounded mr-3 font-semibold text-white ">
                         <h3 class="text-2xl">Withdraw</h3>
                         <h2 class="font-5xl">$00</h2>
                     </div>
+                    <!-- total money in account -->
                     <div class="bg-rose-500 hover:bg-rose-600 shadow-2xl w-56 text-start p-6 rounded font-semibold text-white  ">
                         <h3 class="text-2xl">Balance</h3>
                         <h2 class="">$00</h2>
                     </div>
                 </section>
                 <section class="flex mt-10">
+                    <!-- money deposit -->
                     <div class="bg-blue-800	text-center p-6 w-81 rounded shadow-lg">
                         <h2 class="text-white text-2xl mb-3 font-semibold">Please Deposit</h2>
-                        <input class="border-2 border-solid hover:rounded hover:border-black hover:drop-shadow-2xl "  type="" name="" id="" placeholder="amount"><br>
-                        <button id="deposit-btn" class="bg-green-400 pxy rounded text-white font-semibold mt-2 text-xl hover:bg-green-800">Deposit</button>
+                        <input id="input-deposit" class="border-2 border-solid hover:rounded hover:border-black hover:drop-shadow-2xl "  type="" name="" id="" placeholder="amount"><br>
+                        <button id="deposit-btn" class="bg-green-400 pxy rounded text-white font-medium mt-2 text-xl hover:bg-green-800">Deposit</button>
                     </div>
+                    <!-- money withdraw -->
                     <div class="bg-cyan-700 text-center p-6 w-81 ml-5 rounded shadow-lg ">
                         <h2 class="text-white text-2xl mb-3 font-semibold">Please Withdraw</h2>
-                        <input class="border-2 border-solid hover:rounded hover:border-black hover:drop-shadow-2xl " type="" name="" id="" placeholder="amount"><br>
-                        <button id="withdraw-btn" class="bg-indigo-500 p-2 rounded text-white font-semibold mt-2 text-xl hover:bg-indigo-800">Withdraw</button>
+                        <input id="input-withdraw" class="border-2 border-solid hover:rounded hover:border-black hover:drop-shadow-2xl " type="" name="" placeholder="amount"><br>
+                        <button id="withdraw-btn" class="bg-indigo-500 p-2 rounded text-white font-medium mt-2 text-xl hover:bg-indigo-800">Withdraw</button>
                     </div>
                 </section>
             </section>
         </main>
+        <script src="js/deposit.js"></script>
 </body>
 </html>
