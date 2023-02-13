@@ -1,0 +1,27 @@
+.mx-center{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.flex{
+    display: flex;
+}
+.btn-align{
+    justify-content: end;
+    align-items: end;
+}
+/* bank style */
+.w-81{
+    width: 21rem;
+}
+.pxy{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+}
+.mt-26{
+    margin-top: 100px;
+}
